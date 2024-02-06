@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    padding-bottom: 200px;
+    padding-left: 100px;
+}
+h1{
+    color: white;
+    font-size: 55px;
+    align-items: center;
+    left: 32%;
+    position: relative;
+}
+#studentId{
+color: white;
+font-size: 25px;
+left: 40%;
+position: relative;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 90px;
+}
+#noun1, #verb, #adjective, #noun2, #setting, #playback, #random, #reset{
+    color: black;
+    position: relative;
+    top: 90px;
+    font-size: 25px;
+}
+#choosenNoun1, #choosenVerb, #choosenAdjective, #choosenNoun2, #choosenSetting, #story{
+    color: white;
+    position: relative;
+    top: 90px;
+    font-size: 30px;
+}
+#noun1{
+    background-color: rgb(163, 23, 163);
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#verb{
+    background-color: rgb(85, 182, 243);
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#adjective{
+    background-color: rgb(33, 223, 30);
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#noun2{
+    background-color: orange;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#setting{
+    background-color: rgb(255, 39, 158);
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#playback{
+    background-color: aquamarine;
+}
+#random{
+    background-color: rgb(192, 23, 23);
+}
+#reset{
+    background-color: rgb(210, 210, 3);
+}
+.pic{
+    position: absolute;
+   transform: scale(0.7);
+   right: 50px;
+   top: 10%;
+}
